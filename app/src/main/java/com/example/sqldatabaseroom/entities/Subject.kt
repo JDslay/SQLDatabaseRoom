@@ -7,5 +7,4 @@ import androidx.room.PrimaryKey
 data class Subject(
     @PrimaryKey(autoGenerate = false)
     val subjectName: String,
-    val room: Int
 )
